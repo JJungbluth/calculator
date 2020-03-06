@@ -6,6 +6,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { DefaultButton, TextField, PrimaryButton, Stack } from 'office-ui-fabric-react';
 
 export default function Calculator() {
+    
+    const onClick = () =>{
+        console.log("Hello");
+    };
+
     return (
         <div className="calculator">
             <Container>
@@ -16,7 +21,7 @@ export default function Calculator() {
                 </Row>
                 <Row>
                     <Col className="buttonColumn" xs={4}>
-                        <DefaultButton>1</DefaultButton>
+                        <DefaultButton onClick={()=>{onClick()}}>1</DefaultButton>
                     </Col>
                     <Col className="buttonColumn" xs={4}>
                         <DefaultButton>2</DefaultButton>

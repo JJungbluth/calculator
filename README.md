@@ -1,3 +1,26 @@
+# Links
+
+Komponenten: (Buttons, Textfelder, ...)
+https://developer.microsoft.com/en-us/fabric#/controls/web
+
+Button:
+https://developer.microsoft.com/en-us/fabric#/controls/web/button
+
+React Events (Button Click):
+https://reactjs.org/docs/handling-events.html
+
+Textfeld:
+https://developer.microsoft.com/en-us/fabric#/controls/web/textfield
+
+Styles, Farben, Icons, ...
+https://developer.microsoft.com/en-us/fabric#/styles
+
+Grid System:
+https://react-bootstrap.github.io/layout/grid/
+
+
+___
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
