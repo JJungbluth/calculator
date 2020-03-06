@@ -1,0 +1,22 @@
+.calculator {
+    .container {
+        max-width: 350px;
+
+        .row {
+            margin-top: 4px;
+
+
+            .calculationColumn {
+                padding: 0 2px;
+            }
+
+            .buttonColumn {
+                padding: 0 2px;
+
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
